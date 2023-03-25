@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_thaydat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "manhcuong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "npm-auth": "^1.1.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1342.0",
+    "mock-aws-s3": "^4.0.2",
+    "nock": "^13.3.0",
+    "vite": "^4.1.4",
+    "vite-plugin-node": "^3.0.2"
+  }
+}
