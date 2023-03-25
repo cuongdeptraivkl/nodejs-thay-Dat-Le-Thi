@@ -1,0 +1,35 @@
+cài đặt môi trường: 
+Đây sẽ cài đặt tất cả các gói được liệt kê trong mục "dependencies" và "devDependencies".
+
+Những gói cần cài đặt:
+
+    - axios: thư viện HTTP client cho phép gửi và nhận các yêu cầu HTTP.
+
+    - bcrypt: thư viện mã hóa bcrypt để bảo mật mật khẩu trong cơ sở dữ liệu.
+
+    - body-parser: middleware trung gian để xử lý dữ liệu gửi đến từ yêu cầu HTTP.
+
+    - dotenv: thư viện để đọc các biến môi trường từ tệp .env để giữ các thông tin nhạy cảm như cấu hình, thông tin đăng nhập của ứng dụng bảo mật.
+
+    - express: framework web cho Node.js, cung cấp các tính năng cho việc xử lý yêu cầu HTTP, định tuyến, middleware...
+
+    - joi: thư viện xác nhận dữ liệu đầu vào để đảm bảo tính toàn vẹn của dữ liệu trong ứng dụng.
+
+    - jsonwebtoken: thư viện cung cấp các công cụ để tạo và xác minh JWT (JSON Web Tokens), giúp bảo mật ứng dụng.
+
+    - mongoose: thư viện cho phép tương tác với cơ sở dữ liệu MongoDB, cung cấp một API đơn giản cho việc thêm, sửa đổi và truy vấn dữ liệu.
+
+    - npm-auth: thư viện cho phép xác thực với npm registry.
+
+    - aws-sdk: thư viện SDK (Software Development Kit) chính thức của Amazon Web Services, cung cấp các API cho việc tương tác với các dịch vụ AWS.
+
+    - mock-aws-s3: thư viện cho phép mô phỏng S3 (Amazon Simple Storage Service) để kiểm thử ứng dụng.
+
+    - nock: thư viện giúp mô phỏng các yêu cầu HTTP để kiểm thử ứng dụng.
+
+    - vite: công cụ xây dựng (build) ứng dụng web tốc độ cao cho các ứng dụng web hiện đại.
+
+    - vite-plugin-node: plugin của Vite cho phép import các module Node.js trong ứng dụng web.
+
+Lưu ý rằng các gói trong "dependencies" là các gói cần thiết để chạy ứng dụng của bạn, 
+trong khi các gói trong "devDependencies" là các gói chỉ cần thiết để phát triển ứng dụng.
